@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.notifications-main-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.notifications-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.notifications-heading {
+  color: #0f172a;
+  font-size: 30px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.alert-notifications-list-container {
+  padding-left: 0px;
+  list-style-type: none;
+}

@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.success-color {
+  color: #2dca73;
+}
+.error-color {
+  color: #ff0b37;
+}
+.warning-color {
+  color: #ffb800;
+}
+.info-color {
+  color: #0f81e0;
+}
+
+.success-icon {
+  font-size: 30px;
+}
+.error-icon {
+  width: 30px;
+  height: 30px;
+  font-size: 50px;
+}
+.warning-icon {
+  width: 30px;
+  height: 30px;
+  font-size: 40px;
+}
+.info-icon {
+  width: 30px;
+  height: 30px;
+  font-size: 35px;
+}
+.close-icon {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+  flex-shrink: 0;
+}
+.notification-item {
+  border: 1px solid #e5e5e5;
+  margin-top: 20px;
+  display: flex;
+  padding: 15px;
+}
+.alert-type-description-container {
+  margin-left: 15px;
+  margin-right: 15px;
+  flex: 1;
+}
+.alert-type {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-top: 0px;
+}
+.alert-description {
+  color: #475569;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
