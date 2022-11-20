@@ -50,9 +50,14 @@ class AlertNotifications extends Component {
             {alertNotificationsList.map(eachNotification => (
               <Notification key={eachNotification.id}>
                 {eachNotification.icon}
-                {eachNotification.text}
-                {eachNotification.description}
-                {eachNotification.color}
+                <div className="alert-type-description-container">
+                  <h1 className={`alert-type ${eachNotification.color}`}>
+                    {eachNotification.text}
+                  </h1>
+                  <p className="alert-description">
+                    {eachNotification.description}
+                  </p>
+                </div>
               </Notification>
             ))}
           </ul>

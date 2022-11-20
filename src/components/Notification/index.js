@@ -6,14 +6,11 @@ import './index.css'
 class Notification extends Component {
   render() {
     const {children} = this.props
+    console.log(children)
 
     return (
       <li className="notification-item">
-        {children[0]}
-        <div className="alert-type-description-container">
-          <h1 className={`alert-type ${children[3]}`}>{children[1]}</h1>
-          <p className="alert-description">{children[2]}</p>
-        </div>
+        {children}
         <GrFormClose className="close-icon" />
       </li>
     )
